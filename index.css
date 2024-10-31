@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(60deg, rgba(6,78,59,0.75) 0%, rgba(4,120,87,0.75) 35%, rgba(52,211,153,0.5) 100%), url("https://images.pexels.com/photos/4291/door-green-closed-lock.jpg");
+    background-size: cover;
+    margin: 0;
+    color: white;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+hr {
+    border-top: 1px solid white;
+    margin: 20px 0px 20px 0px;
+}
+
+button {
+    background-color: #B45309;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 30px;
+    padding: 15px 20px 15px 20px;
+    color: #D5D4D8;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #F59E0B;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px #B45309;
+    box-shadow: 5px 5px white;
+    margin-bottom: 5px;
+}
+
+button:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+mark {
+    background-color: #064E3B;
+    color: #FDE68A;
+}
+
+p.motto {
+    font-size: 24px;
+    color: #D5D4D8;
+}
+
+.main {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #064E3B;
+    padding: 40px;
+    width: 50%;
+    
+}
+
+.password {
+    width: 190px;
+    height: 25px;
+    padding-top: 5px;
+    color: #111827;
+    background-color: #F59E0B;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.password-div {
+    display: flex;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
